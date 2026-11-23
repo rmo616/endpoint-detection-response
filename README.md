@@ -1,4 +1,4 @@
-# endpoint-detection-response
+# Endpoint-Detection-Response
 - Microsoft Defender:
     - Protected Assets:
         - Microsoft Windows Workstation x1
