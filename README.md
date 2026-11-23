@@ -1,1 +1,17 @@
 # endpoint-detection-response
+- Microsoft Defender:
+    - Protected Assets:
+        - Microsoft Windows Workstation x1
+        - Linux x1
+        - Microsoft Windows Server x1
+- Detection Rule
+    - Downloaded-Executable-Critical-Server:
+        - Event is escalated when an executable is downloaded on a host group of critical assets.
+    - PowerShellScript-Executed:
+        - Event is escalated when a powershell script executed on a host group of critical assets. 
+    - Acceptable-Use-Policy-Violation:
+        - Event is generated and escalated when an accetable use policy is violated based on criterias included in the prevention policy enabled for all host groups.
+    - RDP-Session-Detected:
+        - Event is escalated and a case is created when an RDP session is detected on a endpoint within a critical host group. 
+    - Suspicious number of resource creation or deployment activities:
+        - Event is generated and escalated when a numerous amount of resources are automated or created within the infrastructure or cloud instance. 
