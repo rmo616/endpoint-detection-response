@@ -4,7 +4,7 @@
         - Microsoft Windows Workstation x1
         - Linux x1
         - Microsoft Windows Server x1
-- Detection Rule
+- Detection Rules:
     - Downloaded-Executable-Critical-Server:
         - Event is escalated when an executable is downloaded on a host group of critical assets.
     - PowerShellScript-Executed:
